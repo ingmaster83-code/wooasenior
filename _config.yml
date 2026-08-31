@@ -1,0 +1,30 @@
+title: 우아경로당 - 전국 경로당·마을회관 찾기
+description: >-
+  전국 46,386곳의 경로당·마을회관 위치와 연락처를 지역별로 검색하세요.
+  건축년도, 관리기관 정보까지 한눈에 확인할 수 있습니다.
+url: "https://wooasenior.wooahouse.com"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+author: WooaHouse
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - "*.py"
+  - "*.log"
+  - "*.txt"
+  - README.md
+  - .gitignore
+  - vendor/
+  - _rawdata/
